@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+button {
+    font: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 body {
     font-family: 'Fira Code', monospace;
+    background-color: #2A2738;
+    color: #F5ECFF;
 }
