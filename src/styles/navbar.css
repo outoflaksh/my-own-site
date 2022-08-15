@@ -5,6 +5,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 15px 25px;
+    background-image: linear-gradient(to bottom, #2a2738, #2a273800);
 }
 
 .brand {
