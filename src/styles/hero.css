@@ -1,0 +1,24 @@
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    line-height: 1.2;
+}
+
+.subtext {
+    color: #9282EC;
+    font-size: 1.6rem;
+}
+
+.subtext span {
+    color: #E54D4D;
+}
+
+.main-text {
+    font-size: 5.4rem;
+    text-align: center;
+}
