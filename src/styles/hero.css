@@ -22,3 +22,47 @@
     font-size: 5.4rem;
     text-align: center;
 }
+
+.terminal {
+    width: 35%;
+    padding: 35px;
+    margin-top: 5%;
+}
+
+.cmd {
+    color: #878787;
+    font-weight: 600;
+}
+
+.cmd span {
+    color: #E54D4D;
+}
+
+.output {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.output img {
+    height: 225px;
+}
+
+.stats {
+    color: #A8596C; 
+}
+
+.stats li {
+    font-weight: 600;
+    list-style: none;
+}
+
+.stats a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.stats > * {
+    margin-top: 5px;
+}
