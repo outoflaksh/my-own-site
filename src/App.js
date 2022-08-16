@@ -1,12 +1,14 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero/Hero";
+import Skills from "./components/Skills/Skills";
 
 function App() {
     return (
         <main>
             <Navbar />
             <Hero />
-            <h1 className="bg2">test</h1>
+            <Skills />
+            <h1 className="bg1">test</h1>
         </main>
     );
 }
