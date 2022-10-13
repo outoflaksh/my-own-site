@@ -4,8 +4,11 @@ import "../../styles/projects.css";
 const ProjectSection = () => {
     return (
         <section className="page-section bg1">
-            hello
-            <div className="box">hello</div>
+            <div className="projects-container flex-col">
+                <h1>
+                    <span>~$</span> python3 projects.py
+                </h1>
+            </div>
         </section>
     );
 };
