@@ -41,14 +41,23 @@
 .gradient-bg {
     height: 100%;
     width: 100%;
-    background: linear-gradient(to top left, #ff3c0085 0%, #0400ff8f 100% );
+    background: linear-gradient(to top right, #A124CD 0%, #2490CD 100%, #24CDB9);
     filter: blur(50px);
     z-index: 0;
     position: absolute;
     top: 0;
     left: 0;
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
+    animation-name: moving-gradient;
+    animation-duration: 4s;
+    /* transition: ease; */
 }
+
+@keyframes moving-gradient {
+    from {transform: scale(1.01);}
+    to {transform: scale(1.05);}
+}
+
 
 .cmd {
     color: #878787;
@@ -71,7 +80,7 @@
 }
 
 .stats {
-    color: #A8596C; 
+    color: #ca788b; 
 }
 
 .stats li {
