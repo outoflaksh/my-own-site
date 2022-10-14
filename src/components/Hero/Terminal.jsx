@@ -19,10 +19,11 @@ const Terminal = () => {
                     <div className="stats">
                         <p>Links:</p>
                         {links.map((link) => {
+                            var url = "https://" + link;
                             return (
                                 <li>
                                     <a
-                                        href={link}
+                                        href={url}
                                         target="_blank"
                                         rel="noreferrer"
                                     >
