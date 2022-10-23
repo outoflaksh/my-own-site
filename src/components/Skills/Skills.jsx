@@ -1,8 +1,9 @@
+import "../../styles/layout.css";
 import "../../styles/skills.css";
 
 const Skills = () => {
     return (
-        <section className="page-section bg2 skills-container">
+        <section className="page-section bg2 skills-container flex-col">
             <div className="skills-list-container">
                 <h1>
                     <span>~$</span> ls -al --skills
